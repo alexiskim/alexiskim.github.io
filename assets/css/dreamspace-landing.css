@@ -1,0 +1,37 @@
+html{
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #A78CBC, #fadadd);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    margin-top: 100px;
+    font-family: Courier;
+    font-size: 20px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.enter-img {
+    margin-top: 20px;
+    opacity: 60%;
+
+    animation: fadein 1.7s;
+}
+
+.enter-img:hover {
+    opacity: 90%;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 60%;}
+}
